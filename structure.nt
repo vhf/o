@@ -21,7 +21,6 @@
 <http://example.com/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Carriers Pouch, you will find data typically from the following documents; Flight Manifest, Freight Booked List, NOTOC." .
 <http://example.com/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Pouch" .
 <http://example.com/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.com/pouch/CustomsPouch> <http://schema.org/hasPart> <http://example.com/schema/Customclass> .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
 <http://example.com/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
