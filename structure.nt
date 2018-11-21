@@ -1,5 +1,6 @@
 <http://example.com/groups/> <http://schema.org/hasPart> <http://example.com/pouch/> .
 <http://example.com/groups/> <http://schema.org/hasPart> <http://example.com/updates/> .
+<http://example.com/groups/> <http://schema.org/hasPart> <http://example.com/letsnest/> .
 <http://example.com/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/> <http://schema.org/hasPart> <http://example.com/pouch/CargoHandlersPouch> .
 <http://example.com/pouch/> <http://schema.org/hasPart> <http://example.com/pouch/CarriersPouch> .
@@ -80,3 +81,15 @@
 <http://example.com/updates/> <http://schema.org/hasPart> <http://example.com/pouch/TrackUpdatePouch> .
 <http://example.com/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
+<http://example.com/letsnest/> <http://schema.org/hasPart> <http://example.com/letsnest/container/> .
+<http://example.com/letsnest/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/letsnest/> <http://www.w3.org/2000/01/rdf-schema#label> "Let's Nest" .
+<http://example.com/letsnest/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is a group at the root" .
+<http://example.com/letsnest/container/> <http://schema.org/hasPart> <http://example.com/letsnest/container/container/> .
+<http://example.com/letsnest/container/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/letsnest/container/> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
+<http://example.com/letsnest/container/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is inside the 'letsnest' group" .
+<http://example.com/letsnest/container/container/> <http://schema.org/hasPart> <http://example.com/pouch/MaritimePouch> .
+<http://example.com/letsnest/container/container/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://example.com/letsnest/container/container/> <http://www.w3.org/2000/01/rdf-schema#label> "Deeper Container" .
+<http://example.com/letsnest/container/container/> <http://www.w3.org/2000/01/rdf-schema#comment> "This container is inside a container inside the 'letsnest' group" .
