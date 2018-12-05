@@ -95,6 +95,11 @@
 <http://example.com/schema/cargoVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://example.com/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#description> "Weight of Goods or number of containers per calendar year in tonnes." .
 <http://example.com/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Weight" .
+<http://example.com/schema/Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.com/schema/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "It's a color." .
+<http://example.com/schema/Color> <http://www.w3.org/2000/01/rdf-schema#label> "Color" .
+<http://example.com/schema/Color> <http://www.w3.org/2004/02/skos/core#example> "Bright grey." .
+<http://example.com/schema/Color> <http://www.w3.org/2004/02/skos/core#note> "Whatever you want it to be. Green, red, yellow…" .
 <http://example.com/schema/CommercialInvoice> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://example.com/schema/CommercialInvoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://example.com/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from wikipedia.org - When used in foreign trade, a commercial invoice is a customs document. It is used as a customs declaration provided by the person or corporation that is exporting an item across international borders." .
@@ -127,6 +132,12 @@
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "Dangerous Goods Declaration" .
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.com/schema/LogisticsObject> .
+<http://example.com/schema/dangerousness> <http://schema.org/domainIncludes> <http://example.com/schema/DangerousGoodsDeclaration> .
+<http://example.com/schema/dangerousness> <http://schema.org/rangeIncludes> <http://example.com/schema/Color> .
+<http://example.com/schema/dangerousness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/schema/dangerousness> <http://www.w3.org/2000/01/rdf-schema#comment> "A color-coded dangerousness level." .
+<http://example.com/schema/dangerousness> <http://www.w3.org/2000/01/rdf-schema#label> "dangerousness" .
+<http://example.com/schema/dangerousness> <http://www.w3.org/2004/02/skos/core#note> "It's very useful. Very. Useful." .
 <http://example.com/schema/deliveredTimestamp> <http://schema.org/domainIncludes> <http://example.com/schema/AirStatusUpdate> .
 <http://example.com/schema/deliveredTimestamp> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#datetime> .
 <http://example.com/schema/deliveredTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
