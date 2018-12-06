@@ -25,6 +25,7 @@
 <http://example.com/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
 <http://example.com/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.com/pouch/CargoHandlersPouch> <http://schema.org/hasPart> <http://example.com/schema/Boat> .
 <http://example.com/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Cargo Handlers Pouch, you will find data typically from the following documents; TBD." .
 <http://example.com/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .

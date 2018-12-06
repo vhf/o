@@ -80,6 +80,10 @@
 <http://example.com/schema/batteryVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://example.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Voltage submitted as a track update." .
 <http://example.com/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Voltage" .
+<http://example.com/schema/Boat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.com/schema/Boat> <http://www.w3.org/2000/01/rdf-schema#comment> "Boaty McBoatface" .
+<http://example.com/schema/Boat> <http://www.w3.org/2000/01/rdf-schema#label> "Boat" .
+<http://example.com/schema/Boat> <http://www.w3.org/2004/02/skos/core#note> "a potentially dangerous boat" .
 <http://example.com/schema/buyer> <http://schema.org/domainIncludes> <http://example.com/schema/Consignment> .
 <http://example.com/schema/buyer> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <http://example.com/schema/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -132,6 +136,7 @@
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "Dangerous Goods Declaration" .
 <http://example.com/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.com/schema/LogisticsObject> .
+<http://example.com/schema/dangerousness> <http://schema.org/domainIncludes> <http://example.com/schema/Boat> .
 <http://example.com/schema/dangerousness> <http://schema.org/domainIncludes> <http://example.com/schema/DangerousGoodsDeclaration> .
 <http://example.com/schema/dangerousness> <http://schema.org/rangeIncludes> <http://example.com/schema/Color> .
 <http://example.com/schema/dangerousness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
