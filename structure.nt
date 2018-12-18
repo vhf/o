@@ -82,7 +82,7 @@
 <http://example.com/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
 <http://example.com/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
 <http://example.com/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.com/pouch/TrackUpdatePouch> <http://schema.org/hasPart> <http://example.com/schema/Light>.
+<http://example.com/pouch/TrackUpdatePouch> <http://schema.org/hasPart> <http://example.com/schema/Light> .
 <http://example.com/pouch/TrackUpdatePouch> <http://schema.org/hasPart> <http://example.com/schema/TrackUpdate> .
 <http://example.com/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
