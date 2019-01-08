@@ -414,7 +414,7 @@
 <http://tcfplayground.org/schema/airWaybill> <http://www.w3.org/2000/01/rdf-schema#comment> "Airwaybill is one of the main IATA freight documents"@en .
 <http://tcfplayground.org/schema/airWaybill> <http://www.w3.org/2000/01/rdf-schema#label> "airWaybill" .
 <http://tcfplayground.org/schema/airWaybillDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/schema/airWaybillDetails> <http://schema.org/rangeIncludes> <iata:Status> .
+<http://tcfplayground.org/schema/airWaybillDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Status> .
 <http://tcfplayground.org/schema/airWaybillDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/airWaybillDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Air Waybill details"@en .
 <http://tcfplayground.org/schema/airWaybillDetails> <http://www.w3.org/2000/01/rdf-schema#label> "airWaybillDetails" .
@@ -476,12 +476,12 @@
 <http://tcfplayground.org/schema/availabilityDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Date and time of availability of goods for pickup at origin"@en .
 <http://tcfplayground.org/schema/availabilityDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "availabilityDateTime" .
 <http://tcfplayground.org/schema/bank> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/BankAccount> .
-<http://tcfplayground.org/schema/bank> <http://schema.org/rangeIncludes> <iata:BankAccount> .
+<http://tcfplayground.org/schema/bank> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/BankAccount> .
 <http://tcfplayground.org/schema/bank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/bank> <http://www.w3.org/2000/01/rdf-schema#comment> "Bank details"@en .
 <http://tcfplayground.org/schema/bank> <http://www.w3.org/2000/01/rdf-schema#label> "bank" .
 <http://tcfplayground.org/schema/bankAccount> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/PaymentMeans> .
-<http://tcfplayground.org/schema/bankAccount> <http://schema.org/rangeIncludes> <iata:PaymentMeans> .
+<http://tcfplayground.org/schema/bankAccount> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/PaymentMeans> .
 <http://tcfplayground.org/schema/bankAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/bankAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Bank account details"@en .
 <http://tcfplayground.org/schema/bankAccount> <http://www.w3.org/2000/01/rdf-schema#label> "bankAccount" .
@@ -531,7 +531,7 @@
 <http://tcfplayground.org/schema/beforeTaxAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount on which tax is applied - CALCULATED: SubTotalAmount - SubTotalDiscountAmount"@en .
 <http://tcfplayground.org/schema/beforeTaxAmount> <http://www.w3.org/2000/01/rdf-schema#label> "beforeTaxAmount" .
 <http://tcfplayground.org/schema/beneficiary> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/BankAccount> .
-<http://tcfplayground.org/schema/beneficiary> <http://schema.org/rangeIncludes> <iata:BankAccount> .
+<http://tcfplayground.org/schema/beneficiary> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/BankAccount> .
 <http://tcfplayground.org/schema/beneficiary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/beneficiary> <http://www.w3.org/2000/01/rdf-schema#comment> "Beneficiary details "@en .
 <http://tcfplayground.org/schema/beneficiary> <http://www.w3.org/2000/01/rdf-schema#label> "beneficiary" .
@@ -556,12 +556,12 @@
 <http://tcfplayground.org/schema/bookingTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theBooking document"@en .
 <http://tcfplayground.org/schema/bookingTotals> <http://www.w3.org/2000/01/rdf-schema#label> "bookingTotals" .
 <http://tcfplayground.org/schema/breakdownByLineType> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLineTotals> .
-<http://tcfplayground.org/schema/breakdownByLineType> <http://schema.org/rangeIncludes> <iata:ProductLineTotals> .
+<http://tcfplayground.org/schema/breakdownByLineType> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLineTotals> .
 <http://tcfplayground.org/schema/breakdownByLineType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/breakdownByLineType> <http://www.w3.org/2000/01/rdf-schema#comment> "Product Lines breakdown by charge type"@en .
 <http://tcfplayground.org/schema/breakdownByLineType> <http://www.w3.org/2000/01/rdf-schema#label> "breakdownByLineType" .
 <http://tcfplayground.org/schema/breakdownByTaxRate> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLineTotals> .
-<http://tcfplayground.org/schema/breakdownByTaxRate> <http://schema.org/rangeIncludes> <iata:ProductLineTotals> .
+<http://tcfplayground.org/schema/breakdownByTaxRate> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLineTotals> .
 <http://tcfplayground.org/schema/breakdownByTaxRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/breakdownByTaxRate> <http://www.w3.org/2000/01/rdf-schema#comment> "Product Lines breakdown by tax rate"@en .
 <http://tcfplayground.org/schema/breakdownByTaxRate> <http://www.w3.org/2000/01/rdf-schema#label> "breakdownByTaxRate" .
@@ -581,7 +581,7 @@
 <http://tcfplayground.org/schema/byTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount of time for which the charge is applied"@en .
 <http://tcfplayground.org/schema/byTime> <http://www.w3.org/2000/01/rdf-schema#label> "byTime" .
 <http://tcfplayground.org/schema/carriage> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
-<http://tcfplayground.org/schema/carriage> <http://schema.org/rangeIncludes> <iata:ChargeDeclaration> .
+<http://tcfplayground.org/schema/carriage> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
 <http://tcfplayground.org/schema/carriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/carriage> <http://www.w3.org/2000/01/rdf-schema#comment> "Carriage value declaration"@en .
 <http://tcfplayground.org/schema/carriage> <http://www.w3.org/2000/01/rdf-schema#label> "carriage" .
@@ -597,7 +597,7 @@
 <http://tcfplayground.org/schema/category> <http://www.w3.org/2000/01/rdf-schema#comment> "Tax category - e.g. StandardRate, Exempt from Tax (and by implication, the rate that applies, the actual percentage is dependent on the tax jurisdiction)"@en .
 <http://tcfplayground.org/schema/category> <http://www.w3.org/2000/01/rdf-schema#label> "category" .
 <http://tcfplayground.org/schema/characteristic> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/schema/characteristic> <http://schema.org/rangeIncludes> <iata:Product> .
+<http://tcfplayground.org/schema/characteristic> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Product> .
 <http://tcfplayground.org/schema/characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Product additional details"@en .
 <http://tcfplayground.org/schema/characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "characteristic" .
@@ -617,12 +617,12 @@
 <http://tcfplayground.org/schema/chargeDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theShipperletterofinstruction document"@en .
 <http://tcfplayground.org/schema/chargeDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "chargeDeclaration" .
 <http://tcfplayground.org/schema/chargeDescription> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/OtherCharge> .
-<http://tcfplayground.org/schema/chargeDescription> <http://schema.org/rangeIncludes> <iata:OtherCharge> .
+<http://tcfplayground.org/schema/chargeDescription> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/OtherCharge> .
 <http://tcfplayground.org/schema/chargeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/chargeDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Other charge description details"@en .
 <http://tcfplayground.org/schema/chargeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "chargeDescription" .
 <http://tcfplayground.org/schema/chargePayment> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/OtherCharge> .
-<http://tcfplayground.org/schema/chargePayment> <http://schema.org/rangeIncludes> <iata:OtherCharge> .
+<http://tcfplayground.org/schema/chargePayment> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/OtherCharge> .
 <http://tcfplayground.org/schema/chargePayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/chargePayment> <http://www.w3.org/2000/01/rdf-schema#comment> "Charge payment details"@en .
 <http://tcfplayground.org/schema/chargePayment> <http://www.w3.org/2000/01/rdf-schema#label> "chargePayment" .
@@ -705,17 +705,17 @@
 <http://tcfplayground.org/schema/company> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theInvoice document"@en .
 <http://tcfplayground.org/schema/company> <http://www.w3.org/2000/01/rdf-schema#label> "company" .
 <http://tcfplayground.org/schema/contact> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Person> .
-<http://tcfplayground.org/schema/contact> <http://schema.org/rangeIncludes> <iata:Person> .
+<http://tcfplayground.org/schema/contact> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Person> .
 <http://tcfplayground.org/schema/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/contact> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact details"@en .
 <http://tcfplayground.org/schema/contact> <http://www.w3.org/2000/01/rdf-schema#label> "contact" .
 <http://tcfplayground.org/schema/contactOther> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Person> .
-<http://tcfplayground.org/schema/contactOther> <http://schema.org/rangeIncludes> <iata:Person> .
+<http://tcfplayground.org/schema/contactOther> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Person> .
 <http://tcfplayground.org/schema/contactOther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/contactOther> <http://www.w3.org/2000/01/rdf-schema#comment> "Other contact details"@en .
 <http://tcfplayground.org/schema/contactOther> <http://www.w3.org/2000/01/rdf-schema#label> "contactOther" .
 <http://tcfplayground.org/schema/containedPiece> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/containedPiece> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/containedPiece> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/containedPiece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/containedPiece> <http://www.w3.org/2000/01/rdf-schema#comment> "Pieces contained within this piece"@en .
 <http://tcfplayground.org/schema/containedPiece> <http://www.w3.org/2000/01/rdf-schema#label> "containedPiece" .
@@ -760,7 +760,7 @@
 <http://tcfplayground.org/schema/currency> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
 <http://tcfplayground.org/schema/currency> <http://www.w3.org/2000/01/rdf-schema#label> "currency" .
 <http://tcfplayground.org/schema/customs> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
-<http://tcfplayground.org/schema/customs> <http://schema.org/rangeIncludes> <iata:ChargeDeclaration> .
+<http://tcfplayground.org/schema/customs> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
 <http://tcfplayground.org/schema/customs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/customs> <http://www.w3.org/2000/01/rdf-schema#comment> "Customs value declaration"@en .
 <http://tcfplayground.org/schema/customs> <http://www.w3.org/2000/01/rdf-schema#label> "customs" .
@@ -799,12 +799,12 @@
 <http://tcfplayground.org/schema/customsTransitStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Customs transit status / information / reference / code / SCI code"@en .
 <http://tcfplayground.org/schema/customsTransitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "customsTransitStatus" .
 <http://tcfplayground.org/schema/dataLog> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Event> .
-<http://tcfplayground.org/schema/dataLog> <http://schema.org/rangeIncludes> <iata:Event> .
+<http://tcfplayground.org/schema/dataLog> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Event> .
 <http://tcfplayground.org/schema/dataLog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/dataLog> <http://www.w3.org/2000/01/rdf-schema#comment> "Data log details - e.g. data from data logger"@en .
 <http://tcfplayground.org/schema/dataLog> <http://www.w3.org/2000/01/rdf-schema#label> "dataLog" .
 <http://tcfplayground.org/schema/dataReceived> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Response> .
-<http://tcfplayground.org/schema/dataReceived> <http://schema.org/rangeIncludes> <iata:Response> .
+<http://tcfplayground.org/schema/dataReceived> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Response> .
 <http://tcfplayground.org/schema/dataReceived> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/dataReceived> <http://www.w3.org/2000/01/rdf-schema#comment> "Data received details"@en .
 <http://tcfplayground.org/schema/dataReceived> <http://www.w3.org/2000/01/rdf-schema#label> "dataReceived" .
@@ -875,7 +875,7 @@
 <http://tcfplayground.org/schema/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact description -  e.g. work, home, mobile phone, sales dept\u2026"@en .
 <http://tcfplayground.org/schema/description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
 <http://tcfplayground.org/schema/destinationCountry> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/destinationCountry> <http://schema.org/rangeIncludes> <iata:Item> .
+<http://tcfplayground.org/schema/destinationCountry> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
 <http://tcfplayground.org/schema/destinationCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/destinationCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Destination country details for customs purposes"@en .
 <http://tcfplayground.org/schema/destinationCountry> <http://www.w3.org/2000/01/rdf-schema#label> "destinationCountry" .
@@ -909,7 +909,7 @@
 <http://tcfplayground.org/schema/dimensions> <http://www.w3.org/2000/01/rdf-schema#comment> "Product dimensions details"@en .
 <http://tcfplayground.org/schema/dimensions> <http://www.w3.org/2000/01/rdf-schema#label> "dimensions" .
 <http://tcfplayground.org/schema/dimensionsPerPiece> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/WaybillLine> .
-<http://tcfplayground.org/schema/dimensionsPerPiece> <http://schema.org/rangeIncludes> <iata:WaybillLine> .
+<http://tcfplayground.org/schema/dimensionsPerPiece> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/WaybillLine> .
 <http://tcfplayground.org/schema/dimensionsPerPiece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/dimensionsPerPiece> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensions details per piece - different dimensions to be shown on separate waybill lines"@en .
 <http://tcfplayground.org/schema/dimensionsPerPiece> <http://www.w3.org/2000/01/rdf-schema#label> "dimensionsPerPiece" .
@@ -919,7 +919,7 @@
 <http://tcfplayground.org/schema/dimensionsUnitCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensions unit code for the invoice"@en .
 <http://tcfplayground.org/schema/dimensionsUnitCode> <http://www.w3.org/2000/01/rdf-schema#label> "dimensionsUnitCode" .
 <http://tcfplayground.org/schema/discount> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLine> .
-<http://tcfplayground.org/schema/discount> <http://schema.org/rangeIncludes> <iata:ProductLine> .
+<http://tcfplayground.org/schema/discount> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLine> .
 <http://tcfplayground.org/schema/discount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/discount> <http://www.w3.org/2000/01/rdf-schema#comment> "Discount details"@en .
 <http://tcfplayground.org/schema/discount> <http://www.w3.org/2000/01/rdf-schema#label> "discount" .
@@ -1045,7 +1045,7 @@
 <http://tcfplayground.org/schema/event> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
 <http://tcfplayground.org/schema/event> <http://www.w3.org/2000/01/rdf-schema#label> "event" .
 <http://tcfplayground.org/schema/eventDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/schema/eventDetails> <http://schema.org/rangeIncludes> <iata:Status> .
+<http://tcfplayground.org/schema/eventDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Status> .
 <http://tcfplayground.org/schema/eventDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/eventDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Event details"@en .
 <http://tcfplayground.org/schema/eventDetails> <http://www.w3.org/2000/01/rdf-schema#label> "eventDetails" .
@@ -1086,7 +1086,7 @@
 <http://tcfplayground.org/schema/faxNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Fax number"@en .
 <http://tcfplayground.org/schema/faxNumber> <http://www.w3.org/2000/01/rdf-schema#label> "faxNumber" .
 <http://tcfplayground.org/schema/feedback> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Response> .
-<http://tcfplayground.org/schema/feedback> <http://schema.org/rangeIncludes> <iata:Response> .
+<http://tcfplayground.org/schema/feedback> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Response> .
 <http://tcfplayground.org/schema/feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/feedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback details"@en .
 <http://tcfplayground.org/schema/feedback> <http://www.w3.org/2000/01/rdf-schema#label> "feedback" .
@@ -1169,14 +1169,14 @@
 <http://tcfplayground.org/schema/functionDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Tax function / purpose description "@en .
 <http://tcfplayground.org/schema/functionDescription> <http://www.w3.org/2000/01/rdf-schema#label> "functionDescription" .
 <http://tcfplayground.org/schema/geoLocation> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Address> .
-<http://tcfplayground.org/schema/geoLocation> <http://schema.org/rangeIncludes> <iata:Address> .
+<http://tcfplayground.org/schema/geoLocation> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Address> .
 <http://tcfplayground.org/schema/geoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/geoLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Geolocation details"@en .
 <http://tcfplayground.org/schema/geoLocation> <http://www.w3.org/2000/01/rdf-schema#label> "geoLocation" .
 <http://tcfplayground.org/schema/geolocation> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/geolocation> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Measurement> .
 <http://tcfplayground.org/schema/geolocation> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Geolocation> .
-<http://tcfplayground.org/schema/geolocation> <http://schema.org/rangeIncludes> <iata:Measurement> .
+<http://tcfplayground.org/schema/geolocation> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Measurement> .
 <http://tcfplayground.org/schema/geolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/geolocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Location details - e.g. geographic coordinates from GPS "@en .
 <http://tcfplayground.org/schema/geolocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
@@ -1212,12 +1212,12 @@
 <http://tcfplayground.org/schema/handling> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theShipperletterofinstruction document"@en .
 <http://tcfplayground.org/schema/handling> <http://www.w3.org/2000/01/rdf-schema#label> "handling" .
 <http://tcfplayground.org/schema/handlingDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Event> .
-<http://tcfplayground.org/schema/handlingDetails> <http://schema.org/rangeIncludes> <iata:Event> .
+<http://tcfplayground.org/schema/handlingDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Event> .
 <http://tcfplayground.org/schema/handlingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/handlingDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Handling details "@en .
 <http://tcfplayground.org/schema/handlingDetails> <http://www.w3.org/2000/01/rdf-schema#label> "handlingDetails" .
 <http://tcfplayground.org/schema/harmonizedCommodityCode> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Goods> .
-<http://tcfplayground.org/schema/harmonizedCommodityCode> <http://schema.org/rangeIncludes> <iata:Goods> .
+<http://tcfplayground.org/schema/harmonizedCommodityCode> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Goods> .
 <http://tcfplayground.org/schema/harmonizedCommodityCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/harmonizedCommodityCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Harmonized Commodity details"@en .
 <http://tcfplayground.org/schema/harmonizedCommodityCode> <http://www.w3.org/2000/01/rdf-schema#label> "harmonizedCommodityCode" .
@@ -1265,24 +1265,24 @@
 <http://tcfplayground.org/schema/houseWaybill> <http://www.w3.org/2000/01/rdf-schema#comment> "Housewaybill is one of the main IATA freight documents"@en .
 <http://tcfplayground.org/schema/houseWaybill> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybill" .
 <http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
-<http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://schema.org/rangeIncludes> <iata:HouseManifestLine> .
+<http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Customs information details"@en .
 <http://tcfplayground.org/schema/houseWaybillCustomsInfo> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybillCustomsInfo" .
 <http://tcfplayground.org/schema/houseWaybillDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/schema/houseWaybillDetails> <http://schema.org/rangeIncludes> <iata:Status> .
+<http://tcfplayground.org/schema/houseWaybillDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Status> .
 <http://tcfplayground.org/schema/houseWaybillDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "House Waybill details"@en .
 <http://tcfplayground.org/schema/houseWaybillDetails> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybillDetails" .
 <http://tcfplayground.org/schema/houseWaybillHandling> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
-<http://tcfplayground.org/schema/houseWaybillHandling> <http://schema.org/rangeIncludes> <iata:HouseManifestLine> .
+<http://tcfplayground.org/schema/houseWaybillHandling> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillHandling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillHandling> <http://www.w3.org/2000/01/rdf-schema#comment> "Handling details"@en .
 <http://tcfplayground.org/schema/houseWaybillHandling> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybillHandling" .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Housewaybill> .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseWaybillHead> .
-<http://tcfplayground.org/schema/houseWaybillHead> <http://schema.org/rangeIncludes> <iata:HouseManifestLine> .
+<http://tcfplayground.org/schema/houseWaybillHead> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://www.w3.org/2000/01/rdf-schema#comment> "House Waybill head details"@en .
 <http://tcfplayground.org/schema/houseWaybillHead> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theHousewaybill document"@en .
@@ -1294,14 +1294,14 @@
 <http://tcfplayground.org/schema/houseWaybillNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "House Waybill unique identifier"@en .
 <http://tcfplayground.org/schema/houseWaybillNumber> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybillNumber" .
 <http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
-<http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://schema.org/rangeIncludes> <iata:HouseManifestLine> .
+<http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference documents details"@en .
 <http://tcfplayground.org/schema/houseWaybillReferenceDocs> <http://www.w3.org/2000/01/rdf-schema#label> "houseWaybillReferenceDocs" .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Housewaybill> .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseWaybillTotals> .
-<http://tcfplayground.org/schema/houseWaybillTotals> <http://schema.org/rangeIncludes> <iata:HouseManifestLine> .
+<http://tcfplayground.org/schema/houseWaybillTotals> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/HouseManifestLine> .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "House Waybill Totals"@en .
 <http://tcfplayground.org/schema/houseWaybillTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theHousewaybill document"@en .
@@ -1376,7 +1376,7 @@
 <http://tcfplayground.org/schema/iDsellerAdditional> <http://www.w3.org/2000/01/rdf-schema#comment> "Seller's additional product identifier"@en .
 <http://tcfplayground.org/schema/iDsellerAdditional> <http://www.w3.org/2000/01/rdf-schema#label> "iDsellerAdditional" .
 <http://tcfplayground.org/schema/iTEM> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/iTEM> <http://schema.org/rangeIncludes> <iata:Item> .
+<http://tcfplayground.org/schema/iTEM> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
 <http://tcfplayground.org/schema/iTEM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/iTEM> <http://www.w3.org/2000/01/rdf-schema#comment> "Item details"@en .
 <http://tcfplayground.org/schema/iTEM> <http://www.w3.org/2000/01/rdf-schema#label> "iTEM" .
@@ -1403,13 +1403,13 @@
 <http://tcfplayground.org/schema/insurance> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
 <http://tcfplayground.org/schema/insurance> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Invoice> .
 <http://tcfplayground.org/schema/insurance> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Insurance> .
-<http://tcfplayground.org/schema/insurance> <http://schema.org/rangeIncludes> <iata:ChargeDeclaration> .
+<http://tcfplayground.org/schema/insurance> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ChargeDeclaration> .
 <http://tcfplayground.org/schema/insurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/insurance> <http://www.w3.org/2000/01/rdf-schema#comment> "Insurance value declaration"@en .
 <http://tcfplayground.org/schema/insurance> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theInvoice document"@en .
 <http://tcfplayground.org/schema/insurance> <http://www.w3.org/2000/01/rdf-schema#label> "insurance" .
 <http://tcfplayground.org/schema/insuranceCompany> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Insurance> .
-<http://tcfplayground.org/schema/insuranceCompany> <http://schema.org/rangeIncludes> <iata:Insurance> .
+<http://tcfplayground.org/schema/insuranceCompany> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Insurance> .
 <http://tcfplayground.org/schema/insuranceCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/insuranceCompany> <http://www.w3.org/2000/01/rdf-schema#comment> "Insurance company details and contacts"@en .
 <http://tcfplayground.org/schema/insuranceCompany> <http://www.w3.org/2000/01/rdf-schema#label> "insuranceCompany" .
@@ -1450,13 +1450,13 @@
 <http://tcfplayground.org/schema/item> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/item> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLine> .
 <http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <iata:ProductLine,xsd:string> .
+<http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLine,xsd:string> .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#comment> "Item details"@en .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#label> "item" .
 <http://tcfplayground.org/schema/itemID> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/itemID> <http://schema.org/rangeIncludes> <iata:Item> .
+<http://tcfplayground.org/schema/itemID> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
 <http://tcfplayground.org/schema/itemID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/itemID> <http://www.w3.org/2000/01/rdf-schema#comment> "Item / article / unit details"@en .
 <http://tcfplayground.org/schema/itemID> <http://www.w3.org/2000/01/rdf-schema#label> "itemID" .
@@ -1560,12 +1560,12 @@
 <http://tcfplayground.org/schema/lotNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Production lot number / reference"@en .
 <http://tcfplayground.org/schema/lotNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lotNumber" .
 <http://tcfplayground.org/schema/manufacturer> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/schema/manufacturer> <http://schema.org/rangeIncludes> <iata:Product> .
+<http://tcfplayground.org/schema/manufacturer> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Product> .
 <http://tcfplayground.org/schema/manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Manufacturing company details and contacts"@en .
 <http://tcfplayground.org/schema/manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer" .
 <http://tcfplayground.org/schema/measurement> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/DataLog> .
-<http://tcfplayground.org/schema/measurement> <http://schema.org/rangeIncludes> <iata:DataLog> .
+<http://tcfplayground.org/schema/measurement> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/DataLog> .
 <http://tcfplayground.org/schema/measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/measurement> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement details"@en .
 <http://tcfplayground.org/schema/measurement> <http://www.w3.org/2000/01/rdf-schema#label> "measurement" .
@@ -1585,7 +1585,7 @@
 <http://tcfplayground.org/schema/movement> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
 <http://tcfplayground.org/schema/movement> <http://www.w3.org/2000/01/rdf-schema#label> "movement" .
 <http://tcfplayground.org/schema/movementDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/schema/movementDetails> <http://schema.org/rangeIncludes> <iata:Status> .
+<http://tcfplayground.org/schema/movementDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Status> .
 <http://tcfplayground.org/schema/movementDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/movementDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Movement details"@en .
 <http://tcfplayground.org/schema/movementDetails> <http://www.w3.org/2000/01/rdf-schema#label> "movementDetails" .
@@ -1674,7 +1674,7 @@
 <http://tcfplayground.org/schema/objectURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Object URI"@en .
 <http://tcfplayground.org/schema/objectURI> <http://www.w3.org/2000/01/rdf-schema#label> "objectURI" .
 <http://tcfplayground.org/schema/originCountry> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/schema/originCountry> <http://schema.org/rangeIncludes> <iata:Product> .
+<http://tcfplayground.org/schema/originCountry> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Product> .
 <http://tcfplayground.org/schema/originCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/originCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Product origin country details"@en .
 <http://tcfplayground.org/schema/originCountry> <http://www.w3.org/2000/01/rdf-schema#label> "originCountry" .
@@ -1712,12 +1712,12 @@
 <http://tcfplayground.org/schema/otherCharges> <http://www.w3.org/2000/01/rdf-schema#comment> "Code indicating whether Other Charges payment will be made at origin (prepaid) or at destination (collect)"@en .
 <http://tcfplayground.org/schema/otherCharges> <http://www.w3.org/2000/01/rdf-schema#label> "otherCharges" .
 <http://tcfplayground.org/schema/otherCustomsInformation> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/CustomsInfo> .
-<http://tcfplayground.org/schema/otherCustomsInformation> <http://schema.org/rangeIncludes> <iata:CustomsInfo> .
+<http://tcfplayground.org/schema/otherCustomsInformation> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/CustomsInfo> .
 <http://tcfplayground.org/schema/otherCustomsInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/otherCustomsInformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Other customs information details"@en .
 <http://tcfplayground.org/schema/otherCustomsInformation> <http://www.w3.org/2000/01/rdf-schema#label> "otherCustomsInformation" .
 <http://tcfplayground.org/schema/otherDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/TransportMeans> .
-<http://tcfplayground.org/schema/otherDetails> <http://schema.org/rangeIncludes> <iata:TransportMeans> .
+<http://tcfplayground.org/schema/otherDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/TransportMeans> .
 <http://tcfplayground.org/schema/otherDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/otherDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Transport vehicle other details "@en .
 <http://tcfplayground.org/schema/otherDetails> <http://www.w3.org/2000/01/rdf-schema#label> "otherDetails" .
@@ -1727,7 +1727,7 @@
 <http://tcfplayground.org/schema/otherDocuments> <http://www.w3.org/2000/01/rdf-schema#comment> "Other document details"@en .
 <http://tcfplayground.org/schema/otherDocuments> <http://www.w3.org/2000/01/rdf-schema#label> "otherDocuments" .
 <http://tcfplayground.org/schema/otherID> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ItemID> .
-<http://tcfplayground.org/schema/otherID> <http://schema.org/rangeIncludes> <iata:ItemID> .
+<http://tcfplayground.org/schema/otherID> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ItemID> .
 <http://tcfplayground.org/schema/otherID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/otherID> <http://www.w3.org/2000/01/rdf-schema#comment> "Other identifier details"@en .
 <http://tcfplayground.org/schema/otherID> <http://www.w3.org/2000/01/rdf-schema#label> "otherID" .
@@ -1742,7 +1742,7 @@
 <http://tcfplayground.org/schema/otherPartyReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Other party reference used to identify a specific booking or file"@en .
 <http://tcfplayground.org/schema/otherPartyReferenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "otherPartyReferenceNumber" .
 <http://tcfplayground.org/schema/otherServiceInfo> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Handling> .
-<http://tcfplayground.org/schema/otherServiceInfo> <http://schema.org/rangeIncludes> <iata:Handling> .
+<http://tcfplayground.org/schema/otherServiceInfo> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Handling> .
 <http://tcfplayground.org/schema/otherServiceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/otherServiceInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Other services details"@en .
 <http://tcfplayground.org/schema/otherServiceInfo> <http://www.w3.org/2000/01/rdf-schema#label> "otherServiceInfo" .
@@ -1757,7 +1757,7 @@
 <http://tcfplayground.org/schema/ownerCodeIssuer> <http://www.w3.org/2000/01/rdf-schema#comment> "Issuer of the ULD owner code "@en .
 <http://tcfplayground.org/schema/ownerCodeIssuer> <http://www.w3.org/2000/01/rdf-schema#label> "ownerCodeIssuer" .
 <http://tcfplayground.org/schema/ownerCompany> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Uld> .
-<http://tcfplayground.org/schema/ownerCompany> <http://schema.org/rangeIncludes> <iata:Uld> .
+<http://tcfplayground.org/schema/ownerCompany> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Uld> .
 <http://tcfplayground.org/schema/ownerCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/ownerCompany> <http://www.w3.org/2000/01/rdf-schema#comment> "Owner company details and contacts"@en .
 <http://tcfplayground.org/schema/ownerCompany> <http://www.w3.org/2000/01/rdf-schema#label> "ownerCompany" .
@@ -1772,7 +1772,7 @@
 <http://tcfplayground.org/schema/pObox> <http://www.w3.org/2000/01/rdf-schema#comment> "Post Office box number / code"@en .
 <http://tcfplayground.org/schema/pObox> <http://www.w3.org/2000/01/rdf-schema#label> "pObox" .
 <http://tcfplayground.org/schema/packageType> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/packageType> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/packageType> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/packageType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#comment> "Packaging details"@en .
 <http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#label> "packageType" .
@@ -1829,7 +1829,7 @@
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/InvoiceTotals> .
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/PaymentTermsTotals> .
-<http://tcfplayground.org/schema/paymentTermsTotals> <http://schema.org/rangeIncludes> <iata:InvoiceTotals> .
+<http://tcfplayground.org/schema/paymentTermsTotals> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/InvoiceTotals> .
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "Payment terms totals"@en .
 <http://tcfplayground.org/schema/paymentTermsTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
@@ -1854,7 +1854,7 @@
 <http://tcfplayground.org/schema/person> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/person> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Company> .
 <http://tcfplayground.org/schema/person> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Person> .
-<http://tcfplayground.org/schema/person> <http://schema.org/rangeIncludes> <iata:Company> .
+<http://tcfplayground.org/schema/person> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Company> .
 <http://tcfplayground.org/schema/person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/person> <http://www.w3.org/2000/01/rdf-schema#comment> "Person details"@en .
 <http://tcfplayground.org/schema/person> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
@@ -1876,32 +1876,32 @@
 <http://tcfplayground.org/schema/pieceCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of pieces / packages / ULDs"@en .
 <http://tcfplayground.org/schema/pieceCount> <http://www.w3.org/2000/01/rdf-schema#label> "pieceCount" .
 <http://tcfplayground.org/schema/pieceDetail> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/WaybillLine> .
-<http://tcfplayground.org/schema/pieceDetail> <http://schema.org/rangeIncludes> <iata:WaybillLine> .
+<http://tcfplayground.org/schema/pieceDetail> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/WaybillLine> .
 <http://tcfplayground.org/schema/pieceDetail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceDetail> <http://www.w3.org/2000/01/rdf-schema#comment> "Individual piece / package / pallet / ULD details"@en .
 <http://tcfplayground.org/schema/pieceDetail> <http://www.w3.org/2000/01/rdf-schema#label> "pieceDetail" .
 <http://tcfplayground.org/schema/pieceDetails> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/schema/pieceDetails> <http://schema.org/rangeIncludes> <iata:Status> .
+<http://tcfplayground.org/schema/pieceDetails> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Status> .
 <http://tcfplayground.org/schema/pieceDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Pieces details for which status herein is provided"@en .
 <http://tcfplayground.org/schema/pieceDetails> <http://www.w3.org/2000/01/rdf-schema#label> "pieceDetails" .
 <http://tcfplayground.org/schema/pieceEvent> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/pieceEvent> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/pieceEvent> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/pieceEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Movement details for this piece"@en .
 <http://tcfplayground.org/schema/pieceEvent> <http://www.w3.org/2000/01/rdf-schema#label> "pieceEvent" .
 <http://tcfplayground.org/schema/pieceID> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/pieceID> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/pieceID> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/pieceID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceID> <http://www.w3.org/2000/01/rdf-schema#comment> "Piece identifier details"@en .
 <http://tcfplayground.org/schema/pieceID> <http://www.w3.org/2000/01/rdf-schema#label> "pieceID" .
 <http://tcfplayground.org/schema/pieceItem> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/pieceItem> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/pieceItem> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/pieceItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Individual items contained within this piece"@en .
 <http://tcfplayground.org/schema/pieceItem> <http://www.w3.org/2000/01/rdf-schema#label> "pieceItem" .
 <http://tcfplayground.org/schema/pieceMovement> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/pieceMovement> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/pieceMovement> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/pieceMovement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/pieceMovement> <http://www.w3.org/2000/01/rdf-schema#comment> "Movement details for this piece"@en .
 <http://tcfplayground.org/schema/pieceMovement> <http://www.w3.org/2000/01/rdf-schema#label> "pieceMovement" .
@@ -1943,14 +1943,14 @@
 <http://tcfplayground.org/schema/prepaidCollectIndicator> <http://www.w3.org/2000/01/rdf-schema#comment> "Other Charges payment indicator - e.g. at origin (prepaid) or at destination (collect)"@en .
 <http://tcfplayground.org/schema/prepaidCollectIndicator> <http://www.w3.org/2000/01/rdf-schema#label> "prepaidCollectIndicator" .
 <http://tcfplayground.org/schema/price> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/schema/price> <http://schema.org/rangeIncludes> <iata:Product> .
+<http://tcfplayground.org/schema/price> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Product> .
 <http://tcfplayground.org/schema/price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/price> <http://www.w3.org/2000/01/rdf-schema#comment> "Product price details"@en .
 <http://tcfplayground.org/schema/price> <http://www.w3.org/2000/01/rdf-schema#label> "price" .
 <http://tcfplayground.org/schema/product> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/product> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLine> .
 <http://tcfplayground.org/schema/product> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/schema/product> <http://schema.org/rangeIncludes> <iata:ProductLine> .
+<http://tcfplayground.org/schema/product> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLine> .
 <http://tcfplayground.org/schema/product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/product> <http://www.w3.org/2000/01/rdf-schema#comment> "Product details"@en .
 <http://tcfplayground.org/schema/product> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
@@ -1990,7 +1990,7 @@
 <http://tcfplayground.org/schema/productLineTotals> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
 <http://tcfplayground.org/schema/productLineTotals> <http://www.w3.org/2000/01/rdf-schema#label> "productLineTotals" .
 <http://tcfplayground.org/schema/production> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/production> <http://schema.org/rangeIncludes> <iata:Item> .
+<http://tcfplayground.org/schema/production> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
 <http://tcfplayground.org/schema/production> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/production> <http://www.w3.org/2000/01/rdf-schema#comment> "Production details"@en .
 <http://tcfplayground.org/schema/production> <http://www.w3.org/2000/01/rdf-schema#label> "production" .
@@ -2036,7 +2036,7 @@
 <http://tcfplayground.org/schema/rateReferenceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of rate - e.g. contract, adhoc, etc."@en .
 <http://tcfplayground.org/schema/rateReferenceType> <http://www.w3.org/2000/01/rdf-schema#label> "rateReferenceType" .
 <http://tcfplayground.org/schema/rating> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/WaybillLine> .
-<http://tcfplayground.org/schema/rating> <http://schema.org/rangeIncludes> <iata:WaybillLine> .
+<http://tcfplayground.org/schema/rating> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/WaybillLine> .
 <http://tcfplayground.org/schema/rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Rating details"@en .
 <http://tcfplayground.org/schema/rating> <http://www.w3.org/2000/01/rdf-schema#label> "rating" .
@@ -2208,7 +2208,7 @@
 <http://tcfplayground.org/schema/spaceAllocationDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Space allocation request / action / confirmation code or details"@en .
 <http://tcfplayground.org/schema/spaceAllocationDetails> <http://www.w3.org/2000/01/rdf-schema#label> "spaceAllocationDetails" .
 <http://tcfplayground.org/schema/specialHandling> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Handling> .
-<http://tcfplayground.org/schema/specialHandling> <http://schema.org/rangeIncludes> <iata:Handling> .
+<http://tcfplayground.org/schema/specialHandling> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Handling> .
 <http://tcfplayground.org/schema/specialHandling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/specialHandling> <http://www.w3.org/2000/01/rdf-schema#comment> "Special handling details"@en .
 <http://tcfplayground.org/schema/specialHandling> <http://www.w3.org/2000/01/rdf-schema#label> "specialHandling" .
@@ -2485,7 +2485,7 @@
 <http://tcfplayground.org/schema/transferManifestNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification number of transfer manifest or substitute flight manifest "@en .
 <http://tcfplayground.org/schema/transferManifestNumber> <http://www.w3.org/2000/01/rdf-schema#label> "transferManifestNumber" .
 <http://tcfplayground.org/schema/transportMeans> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Movement> .
-<http://tcfplayground.org/schema/transportMeans> <http://schema.org/rangeIncludes> <iata:Movement> .
+<http://tcfplayground.org/schema/transportMeans> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Movement> .
 <http://tcfplayground.org/schema/transportMeans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/transportMeans> <http://www.w3.org/2000/01/rdf-schema#comment> "Transport vehicle details"@en .
 <http://tcfplayground.org/schema/transportMeans> <http://www.w3.org/2000/01/rdf-schema#label> "transportMeans" .
@@ -2501,7 +2501,7 @@
 <http://tcfplayground.org/schema/type> <http://www.w3.org/2000/01/rdf-schema#comment> "Location type - e.g. Airport, FreightTerminal, RailStation, Other, Seaport\u2026"@en .
 <http://tcfplayground.org/schema/type> <http://www.w3.org/2000/01/rdf-schema#label> "type" .
 <http://tcfplayground.org/schema/uLD> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/schema/uLD> <http://schema.org/rangeIncludes> <iata:Piece> .
+<http://tcfplayground.org/schema/uLD> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Piece> .
 <http://tcfplayground.org/schema/uLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/uLD> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit Load Device or packaging details"@en .
 <http://tcfplayground.org/schema/uLD> <http://www.w3.org/2000/01/rdf-schema#label> "uLD" .
