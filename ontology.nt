@@ -1450,7 +1450,8 @@
 <http://tcfplayground.org/schema/item> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/Commonobjects> .
 <http://tcfplayground.org/schema/item> <http://schema.org/domainIncludes> <http://tcfplayground.org/schema/ProductLine> .
 <http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLine,xsd:string> .
+<http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://tcfplayground.org/schema/ProductLine> .
+<http://tcfplayground.org/schema/item> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#comment> "Item details"@en .
 <http://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#comment> "Section of theCommonobjects document"@en .
