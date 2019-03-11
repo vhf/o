@@ -210,12 +210,16 @@
 <http://example.com/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://example.com/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
 <http://example.com/schema/forwarder> <http://www.w3.org/2004/02/skos/core#note> "The party undertaking the freight forwarding of these consignments." .
-<http://example.com/schema/grossWeight> <http://schema.org/domainIncludes> <http://example.com/schema/Package> .
 <http://example.com/schema/grossWeight> <http://schema.org/domainIncludes> <http://example.com/schema/RailroadWaggon> .
 <http://example.com/schema/grossWeight> <http://schema.org/domainIncludes> <http://example.com/schema/ShippersInstruction> .
-<http://example.com/schema/grossWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<http://example.com/schema/grossWeight> <http://schema.org/rangeIncludes> <http://example.com/schema/DangerousGoodsDeclaration> .
+<http://example.com/schema/grossWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://example.com/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <http://example.com/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<http://example.com/schema/grossWeight> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.com/mySameAs> .
+<http://example.com/schema/grossWeight> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.com/schema/Color> .
+<http://example.com/schema/grossWeight> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://example.com/schema/grossWeight> <http://www.w3.org/2004/02/skos/core#note> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <http://example.com/schema/handoverTo> <http://schema.org/rangeIncludes> <http://schema.org/Organization> .
 <http://example.com/schema/handoverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
