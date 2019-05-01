@@ -1012,6 +1012,11 @@
 <http://example.com/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
 <http://example.com/schema/NetWeight> <http://www.w3.org/2000/01/rdf-schema#label> "NetWeight" .
 <http://example.com/schema/NetWeight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.com/schema/Value> .
+<http://example.com/schema/newPropZ> <http://schema.org/domainIncludes> <http://example.com/schema/Hello> .
+<http://example.com/schema/newPropZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.com/schema/newPropZ> <http://www.w3.org/2000/01/rdf-schema#comment> "test sameAs" .
+<http://example.com/schema/newPropZ> <http://www.w3.org/2000/01/rdf-schema#label> "newPropZ" .
+<http://example.com/schema/newPropZ> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.com/propZ> .
 <http://example.com/schema/noCarriageValue> <http://schema.org/domainIncludes> <http://example.com/schema/Carriage> .
 <http://example.com/schema/noCarriageValue> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <http://example.com/schema/noCarriageValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
