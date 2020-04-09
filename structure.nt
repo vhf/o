@@ -1,3 +1,4 @@
+<http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "1" .
 <http://editor.zazuko.com/_datasetVersion> <http://schema.org/version> "177" .
 <http://example.com/games/> <http://schema.org/hasPart> <http://example.com/games/board-games/> .
 <http://example.com/games/> <http://schema.org/hasPart> <http://example.com/games/card-games/> .
@@ -8,6 +9,7 @@
 <http://example.com/games/board-games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/games/board-games/> <http://www.w3.org/2000/01/rdf-schema#comment> "Games played on a board" .
 <http://example.com/games/board-games/> <http://www.w3.org/2000/01/rdf-schema#label> "Board Games" .
+<http://example.com/games/card-games/> <http://schema.org/hasPart> <http://example.com/schema/D> .
 <http://example.com/games/card-games/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://example.com/games/card-games/> <http://www.w3.org/2000/01/rdf-schema#comment> "Games played with cards" .
 <http://example.com/games/card-games/> <http://www.w3.org/2000/01/rdf-schema#label> "Card Games" .
