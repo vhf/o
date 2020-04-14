@@ -1,3 +1,6 @@
+<http://example.com/schema/Aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.com/schema/Aa> <http://www.w3.org/2000/01/rdf-schema#comment> "aa" .
+<http://example.com/schema/Aa> <http://www.w3.org/2000/01/rdf-schema#label> "AA" .
 <http://example.com/schema/b> <http://schema.org/domainIncludes> <http://example.com/schema/RockClimbing> .
 <http://example.com/schema/b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://example.com/schema/b> <http://www.w3.org/2000/01/rdf-schema#comment> "c" .
