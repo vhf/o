@@ -1,3 +1,6 @@
+<http://example.com/schema/A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.com/schema/A1> <http://www.w3.org/2000/01/rdf-schema#comment> "a1" .
+<http://example.com/schema/A1> <http://www.w3.org/2000/01/rdf-schema#label> "A1" .
 <http://example.com/schema/A11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://example.com/schema/A11> <http://www.w3.org/2000/01/rdf-schema#comment> "11" .
 <http://example.com/schema/A11> <http://www.w3.org/2000/01/rdf-schema#label> "A11" .
